@@ -1,0 +1,39 @@
+.imagePage {
+    width: 70%;
+}
+.chit {
+    color: gray;
+}
+.chit:hover {
+    color: #00a8e2;
+}
+.date {
+    font-size: 0.9em;
+}
+.textblog {
+    font-size: 1.1em;
+}
+.articlepage {
+    padding: 3%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.22);
+    background: white;
+    border-radius: 40px;
+    width: 80%;
+}
+.articlepage1 {
+   margin: 2%;
+    margin-left: 20%;
+}
+@media (max-width: 768px) {
+    .textblog {
+        font-size: 1em;
+    }
+    .articlepage {
+        padding: 5%;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .articlepage1 {
+       margin: 0;
+    }
+}

@@ -1,0 +1,34 @@
+.pacientam {
+    padding: 3%;
+}
+.leftfloat {
+    float: right;
+    margin: 10px;
+    width: 40%;
+}
+@media (max-width: 767px) {
+    .leftfloat {
+        float: none;
+        width: 90%;
+    }
+}
+.tabiki {
+    cursor: pointer;
+}
+.galer {
+    cursor: pointer;
+}
+.imggaler {
+    margin: 2%;
+}
+.liniya {
+    color: rgba(0, 0, 0, 0.44);
+}
+.nav-pills {
+    --bs-nav-pills-link-active-bg: #00a8e2;
+}
+@media (max-width: 575px) {
+    .equip {
+        margin-top: 4%;
+    }
+}

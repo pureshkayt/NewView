@@ -1,0 +1,57 @@
+.devitem {
+    padding: 3%;
+    height: 240px;
+    transition: 0.2s;
+}
+.devitem:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.24);
+}
+@media (max-width: 768px) {
+    .devitem {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+.nameprice {
+    margin: 4%;
+}
+
+.devicepage1 {
+    padding: 4%;
+}
+.devicepage {
+    padding: 4%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.22);
+    background: white;
+    border-radius: 60px;
+    width: 100%;
+}
+.harcol {
+    padding: 2%;
+}
+.imgitem {
+    width: 80%;
+}
+@media (max-width: 768px) {
+    .devicepage1 {
+        padding: 0;
+    }
+    .devicepage {
+        border-radius: 0;
+    }
+    .harcol {
+        width: 100%;
+    }
+    .imgitem {
+        width: 100%;
+    }
+}
+.har {
+    font-size: 1.5em;
+}
+.namedev {
+    font-size: 3em;
+}
+.imgh1 {
+    padding: 2%;
+}

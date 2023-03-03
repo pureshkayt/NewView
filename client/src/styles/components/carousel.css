@@ -1,0 +1,33 @@
+.carousel-caption {
+    text-align: left;
+}
+.carousel {
+    filter: none;
+}
+.shadow {
+    filter: brightness(50%);
+}
+.slidebut {
+    width: 110px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.slidebut:hover {
+    width: 140px;
+    background: rgb(0, 169, 227);
+}
+@media (max-width: 768px) {
+    .slidebut {
+        font-size: 0.7em;
+        width: 85px;
+    }
+    .slidebut:hover {
+        width: 100px;
+        background: rgb(0, 169, 227);
+    }
+    .slidetext {
+        font-size: 1.1em;
+    }
+}

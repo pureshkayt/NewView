@@ -1,0 +1,18 @@
+.page-footer {
+    background: #00a9e3;
+    color: #fde5f8;
+}
+.footer-copyright {
+    background: #0094e3;
+}
+.line6 {
+    width: 80%;
+    margin-left: 10%;
+}
+.silka2:hover{
+    color: rgb(211, 211, 211);
+}
+.icons {
+    font-size: 2em;
+    margin: 2%;
+}

@@ -1,0 +1,32 @@
+.but1 {
+    font-size: 1em;
+    width: 100%;
+    background: mediumslateblue;
+}
+.consu {
+    height: 70px;
+    background: rgba(255, 255, 255, 0.94);
+}
+.adress {
+    margin-top: 15px;
+}
+@media (max-width: 992px) {
+    .cons {
+        width: auto;
+    }
+    .but1 {
+        font-size: 0.9em;
+    }
+    .adress {
+        font-size: 0.9em;
+    }
+
+}
+@media (max-width: 767px) {
+    .consu {
+        height: 1%;
+    }
+    .cons {
+        margin-top: -2%;
+    }
+}

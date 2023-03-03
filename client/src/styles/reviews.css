@@ -1,0 +1,15 @@
+.reviews {
+    padding: 4%;
+}
+.otziv {
+    color: white;
+    margin-top: 4%;
+}
+.otzi {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+.mainreviews {
+    background: linear-gradient(to left, transparent, #7a67ec), linear-gradient(to left, transparent, #7a67ec);
+}
